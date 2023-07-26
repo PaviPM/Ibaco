@@ -1,0 +1,143 @@
+*{
+    margin: 00;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(94, 237, 94),rgb(134, 212, 240),rgb(230, 219, 219));
+    width: 100%;
+    height: 50px;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+.container ul li{
+    display: inline;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    opacity: .8;
+    padding: 10px;
+}
+.container ul li:hover{
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+    opacity: 1;
+}
+.img1{
+    background-image: url(./Images/bars.png);
+    border: 0px solid black;
+    width: 350px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 12px;
+}
+.img1:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.img2{
+    background-image: url(./Images/cake.png);
+    border: 0px solid black;
+    width: 350px;
+    height: 1000px;
+    background-size: cover;
+    margin-left: 350px;
+    margin-top: -900px;
+}
+.img2:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.img3{
+    background-image: url(./Images/milkshake.png);
+    border: 0px solid black;
+    width: 450px;
+    height: 950px;
+    margin-left: 700px;
+    margin-top: -1000px;
+}
+.img3:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.img4{
+    background-image: url(./Images/kones.png);
+    background-repeat: no-repeat;
+    border: 0px solid black;
+    width: 350px;
+    height: 900px;
+    margin-left: 1050px;
+    margin-top: -750px;
+}
+.img4:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.img5{
+    background-image: url(./Images/ice.jpg);
+    border: 0px solid black;
+    width: 350px;
+    height: 900px;
+    margin-left: 1350px;
+    margin-top: -1000px;
+    background-size: cover;
+}
+.img5:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.bar{
+    position: absolute;
+    border: 0px solid black;
+    width: 200px;
+    height: 50px;
+    margin-left: -30px;
+    margin-top: -550px;
+    font-size: 30px;
+    color:black;
+    transform: translate(50%,-50%);
+    cursor: pointer;
+}
+.cake{
+    position: absolute;
+    border: 0px solid black;
+    width: 200px;
+    height: 50px;
+    margin-left: 430px;
+    margin-top: -550px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.shake{
+    position: absolute;
+    border: 0px solid black;
+    width: 200px;
+    height: 50px;
+    margin-left: 780px;
+    margin-top: -550px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.cone{
+    position: absolute;
+    border: 0px solid black;
+    width: 200px;
+    height: 50px;
+    margin-left: 1130px;
+    margin-top: -530px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.float{
+    position: absolute;
+    border: 0px solid black;
+    width: 200px;
+    height: 50px;
+    margin-left: 1430px;
+    margin-top: -530px;
+    font-size: 30px;
+    cursor: pointer;
+}

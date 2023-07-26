@@ -1,0 +1,52 @@
+*{
+    margin: 00;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(94, 237, 94),rgb(134, 212, 240),rgb(230, 219, 219));
+    width: 100%;
+    height: 50px;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+.container ul li{
+    display: inline;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    opacity: .8;padding: 10px;
+
+}
+.container ul li:hover{
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+    opacity: 1;
+}
+.find{
+    border: 0px solid black;
+    width: 600px;
+    height: 60px;
+    margin-top: -650px;
+    text-align: center;
+    font-size: 13px;
+    opacity: .8;
+    margin-left: 550px;
+}
+input{
+    width: 400px;
+    height: 50px;
+    margin-right: 1200px;
+    border-radius: 10px;
+    margin-left: 650px;
+}
+.add{
+    border: 0px solid black;
+    width: 550px;
+    height: 400px;
+    margin-top: 50px;
+    font-size: larger;
+    margin-left: 580px;
+}
